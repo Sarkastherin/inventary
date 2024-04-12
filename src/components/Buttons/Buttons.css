@@ -1,0 +1,55 @@
+.btn-regular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 12px 15px;
+  color: var(--primary-color);
+  border-radius: 4px;
+  background: none;
+  border: none;
+  box-shadow: 0px 1px 2px 2px rgb(0, 0, 0, 15%);
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.btn-regular:hover {
+  box-shadow: 0px 1px 2px 2px rgb(52, 84, 209, 50%);
+}
+.btn-regular:hover .icon {
+  transform: scale(1.2);
+}
+.btn-regular .name {
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn-regular .icon {
+  transition: 0.5s all;
+}
+button {
+  width: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--secondary-color);
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.5s all;
+  border-radius: 5px;
+}
+button[name="eliminar"] {
+  color: #D1345B;
+  border: #D1345B 1px solid;
+  
+}
+button[name="eliminar"]:hover {
+  background-color: #D1345B;
+  color: white;
+}
+button[name="editar"] {
+  color: var(--primary-color);
+  border: var(--primary-color) 1px solid;
+  
+}
+button[name="editar"]:hover {
+  background-color: var(--primary-color);
+  color: white;
+}

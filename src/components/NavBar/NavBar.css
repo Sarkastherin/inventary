@@ -1,0 +1,30 @@
+nav {
+    position: relative;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 0px 2px 5px 2px rgb(0,0,0, 15%);
+}
+.deco {
+    position: absolute;
+    display: block;
+    left: -40px;
+    overflow: hidden;
+    height: 100%;
+}
+.deco-plus {
+    left: 0;
+}
+nav p {
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1440 - 320)));
+    font-weight: 300;
+    z-index: 1;
+}
+.menu-actions {
+    font-size: 25px;
+    display: flex;
+    gap: 15px;
+}
